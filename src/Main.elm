@@ -3,11 +3,6 @@ module Main exposing (main)
 import Html exposing (..)
 import Html.Attributes exposing (..)
 
--- import Html.CssHelpers
---
---
--- { id, class, classList } =
---     Html.CssHelpers.withNamespace "dreamwriter"
 
 
 main : Html msg
@@ -214,7 +209,7 @@ main =
             [  div
               [ ]
               [ a
-                [ style [ ( "color", "rgb(255, 255, 255)" ) ], target "_blank", href "http://www.accuweather.com/us/NV/LAS%20VEGAS/89102/city-weather-forecast.asp?partner=netweather&traveler=0" ]
+                [ target "_blank", href "http://www.accuweather.com/us/NV/LAS%20VEGAS/89102/city-weather-forecast.asp?partner=netweather&traveler=0" ]
                 [ text "Weather Forecast" ]
               ]
             ]
